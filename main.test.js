@@ -1,8 +1,39 @@
 /******************
- * YOUR CODE HERE *
+ * 
+ * 
+ * 
  ******************/
+greeting = "Hello";
+sum = 0;
+prod = 0
 
+function greet (firstName){
+  greeting = "Hello " + firstName
+}
 
+function sumOfTwo (num1, num2) {
+  sum = num1 + num2;
+}
+
+function multiply (num1, num2, num3) {
+  prod = num1 * num2 * num3;
+}
+
+function sayHi (name) {
+  return "Hello " + name + "!"
+}
+
+function returnWhatISay (someThingTheySay) {
+  return someThingTheySay
+}
+
+function divide (num1, num2) {
+  return num1 / num2;
+}
+
+function remainder (num1, num2) {
+  return num1 % num2;
+}
 
 
 /*********************************************************************************************************************
