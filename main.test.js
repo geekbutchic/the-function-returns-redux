@@ -3,38 +3,25 @@
  * 
  * 
  ******************/
-greeting = "Hello";
-sum = 0;
-prod = 0
+let greeting = 'Hello';
+let sum = '0';
+let prod = '0';
 
-function greet (firstName){
-  greeting = "Hello " + firstName
+greet = (param) => {
+  greeting = greeting + ' ' + param;
 }
 
-function sumOfTwo (num1, num2) {
+sumOfTwo = (num1,num2) => {
   sum = num1 + num2;
 }
 
-function multiply (num1, num2, num3) {
+multiply = (num1, num2, num3) => {
   prod = num1 * num2 * num3;
 }
 
-function sayHi (name) {
-  return "Hello " + name + "!"
+returnWhatISay = () => {
+  
 }
-
-function returnWhatISay (someThingTheySay) {
-  return someThingTheySay
-}
-
-function divide (num1, num2) {
-  return num1 / num2;
-}
-
-function remainder (num1, num2) {
-  return num1 % num2;
-}
-
 
 /*********************************************************************************************************************
 
