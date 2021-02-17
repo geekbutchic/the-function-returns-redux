@@ -19,9 +19,26 @@ multiply = (num1, num2, num3) => {
   prod = num1 * num2 * num3;
 }
 
-returnWhatISay = () => {
-  
+sayHi = (name) => {
+  return 'Hello ' + name + '!'
+  // return greeting + ' ' + name + '!'
+  // Question why wouldn't the second version work?
+  // I was trying to use the variable greeting already 
+  // created instead of hard coding.
 }
+
+returnWhatISay = (str) => {
+  return str 
+}
+
+divide = (num1, num2) => {
+  return num1 / num2;
+}
+
+remainder = (num1, num2) => {
+  return num1 % num2;
+}
+
 
 /*********************************************************************************************************************
 
